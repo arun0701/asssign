@@ -1,0 +1,17 @@
+<p>
+  Hello World
+</p>
+
+<div id="pdfTable" #pdfTable>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/bar-chart">Bar Chart</a>
+    </li>
+   
+  </ul>
+  <div>
+      <router-outlet></router-outlet>
+  </div>
+</div></div>
+<div> <button  (click)="downloadAsPDF()">Export To PDF</button></div>
